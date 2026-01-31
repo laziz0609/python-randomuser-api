@@ -1,92 +1,96 @@
-[
-    {
-        "full_name": "Kerttu Nurmi",
-        "phone": "06-156-758",
-        "email": "kerttu.nurmi@example.com",
-        "age": 81,
-        "nat": "FI",
-        "gender": "female",
-        "country": "Finland"
-    },
-    {
-        "full_name": "Dolores Watson",
-        "phone": "00-6507-3433",
-        "email": "dolores.watson@example.com",
-        "age": 38,
-        "nat": "AU",
-        "gender": "female",
-        "country": "Australia"
-    },
-    {
-        "full_name": "Al\u00edcia Vieira",
-        "phone": "(99) 4456-3378",
-        "email": "alicia.vieira@example.com",
-        "age": 32,
-        "nat": "BR",
-        "gender": "female",
-        "country": "Brazil"
-    },
-    {
-        "full_name": "Suzanne Ortiz",
-        "phone": "016977 5915",
-        "email": "suzanne.ortiz@example.com",
-        "age": 76,
-        "nat": "GB",
-        "gender": "female",
-        "country": "United Kingdom"
-    },
-    {
-        "full_name": "Milagros Morales",
-        "phone": "931-497-047",
-        "email": "milagros.morales@example.com",
-        "age": 43,
-        "nat": "ES",
-        "gender": "female",
-        "country": "Spain"
-    },
-    {
-        "full_name": "Utz Traut",
-        "phone": "0953-9810008",
-        "email": "utz.traut@example.com",
-        "age": 50,
-        "nat": "DE",
-        "gender": "male",
-        "country": "Germany"
-    },
-    {
-        "full_name": "Elizabeth Patel",
-        "phone": "P59 M41-2450",
-        "email": "elizabeth.patel@example.com",
-        "age": 36,
-        "nat": "CA",
-        "gender": "female",
-        "country": "Canada"
-    },
-    {
-        "full_name": "Debra Kennedy",
-        "phone": "0181 260 8646",
-        "email": "debra.kennedy@example.com",
-        "age": 43,
-        "nat": "GB",
-        "gender": "female",
-        "country": "United Kingdom"
-    },
-    {
-        "full_name": "Sofia Koskinen",
-        "phone": "02-170-357",
-        "email": "sofia.koskinen@example.com",
-        "age": 58,
-        "nat": "FI",
-        "gender": "female",
-        "country": "Finland"
-    },
-    {
-        "full_name": "Lina Masson",
-        "phone": "078 420 82 28",
-        "email": "lina.masson@example.com",
-        "age": 46,
-        "nat": "CH",
-        "gender": "female",
-        "country": "Switzerland"
-    }
-]
+
+{
+    "males": [
+        {
+            "full_name": "Kerttu Nurmi",
+            "phone": "06-156-758",
+            "email": "kerttu.nurmi@example.com",
+            "age": 81,
+            "nat": "FI",
+            "gender": "female",
+            "country": "Finland"
+        },
+        {
+            "full_name": "Dolores Watson",
+            "phone": "00-6507-3433",
+            "email": "dolores.watson@example.com",
+            "age": 38,
+            "nat": "AU",
+            "gender": "female",
+            "country": "Australia"
+        },
+        {
+            "full_name": "Al\u00edcia Vieira",
+            "phone": "(99) 4456-3378",
+            "email": "alicia.vieira@example.com",
+            "age": 32,
+            "nat": "BR",
+            "gender": "female",
+            "country": "Brazil"
+        },
+        {
+            "full_name": "Suzanne Ortiz",
+            "phone": "016977 5915",
+            "email": "suzanne.ortiz@example.com",
+            "age": 76,
+            "nat": "GB",
+            "gender": "female",
+            "country": "United Kingdom"
+        },
+        {
+            "full_name": "Milagros Morales",
+            "phone": "931-497-047",
+            "email": "milagros.morales@example.com",
+            "age": 43,
+            "nat": "ES",
+            "gender": "female",
+            "country": "Spain"
+        },
+        {
+            "full_name": "Utz Traut",
+            "phone": "0953-9810008",
+            "email": "utz.traut@example.com",
+            "age": 50,
+            "nat": "DE",
+            "gender": "male",
+            "country": "Germany"
+        },
+        {
+            "full_name": "Elizabeth Patel",
+            "phone": "P59 M41-2450",
+            "email": "elizabeth.patel@example.com",
+            "age": 36,
+            "nat": "CA",
+            "gender": "female",
+            "country": "Canada"
+        },
+        {
+            "full_name": "Debra Kennedy",
+            "phone": "0181 260 8646",
+            "email": "debra.kennedy@example.com",
+            "age": 43,
+            "nat": "GB",
+            "gender": "female",
+            "country": "United Kingdom"
+        },
+        {
+            "full_name": "Sofia Koskinen",
+            "phone": "02-170-357",
+            "email": "sofia.koskinen@example.com",
+            "age": 58,
+            "nat": "FI",
+            "gender": "female",
+            "country": "Finland"
+        },
+        {
+            "full_name": "Lina Masson",
+            "phone": "078 420 82 28",
+            "email": "lina.masson@example.com",
+            "age": 46,
+            "nat": "CH",
+            "gender": "female",
+            "country": "Switzerland"
+        }
+    ],
+    "females": []
+}
