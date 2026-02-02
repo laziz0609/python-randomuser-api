@@ -2,7 +2,7 @@ import requests
 import json
 
 
-def get_randomuser_full_data():
+def get_randomuser_full_data() -> dict:
     url = 'https://randomuser.me/api/'
 
     response = requests.get(url)
@@ -11,7 +11,14 @@ def get_randomuser_full_data():
     return data['results'][0]
 
 
-def get_user_data(user: dict):
+def check_gender(user: dict) -> bool:
+    if user["gender"].lower() == "male":
+        return True
+    
+    return False
+
+
+def get_user_data(user: dict) -> dict[str, str]:
     full_name = user['name']['first'] + ' ' + user['name']['last']
     phone = user['phone']
     email = user['email']
@@ -34,11 +41,21 @@ def get_user_data(user: dict):
 
 
 def main() -> None:
-    users = []
-    for i in range(10):
-        user = get_randomuser_full_data()
-        user_data = get_user_data(user)
-        users.append(user_data)
+    males: list[dict[str, str | int]] = []
+    females: list[dict[str, str | int]] = []
+    while len(males) < 10 or len(females) < 10:
+            
+            print(i)
+            user_data = get_randomuser_full_data()
+            if check_gender(user_data):
+                if len(males) < 10:
+                    males.append(get_user_data(user_data))
+            
+            else:
+                if len(females) < 10:
+                    females.append(get_user_data(user_data))
+
+    users = {"males": males, "females": females}
     
     with open('users.json', 'w') as jsonfile:
         jsonfile.write(json.dumps(users, indent=4))
